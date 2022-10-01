@@ -1,20 +1,19 @@
-
+<!DOCTYPE html>
+<html>
+    <head> 
         body { background-color: rgb(255, 255, 255); }
         .container{
             display:flex;
             flex-direction:column; /*가로방향으로 정렬,세로일경우 row*/
             justify-content:center;
             align-items:center; 
-             
+                
         }
-        .title{
-            font-size: 36px;
-            margin:auto 0;
-        }    
+        .title{font-size: 36px;}    
         .login{
             font-size: 30px;
             color:#6F6F6F;
-            margin:60px;
+            margin:145px;
         }
         .item{
             background-color: #F5F5F5;
@@ -39,3 +38,22 @@
             color:#FFFFFF;
             margin:6px;
         }   
+    </head>  
+    
+    <body>
+        <div class="container">
+            <h1 class="title">Un-title Todo</h1>
+            <h1 class="login">로그인</h1>
+            <p class="item email">
+               이메일;
+            </p>
+            <p class="item password">
+                비밀번호
+            </p>
+            <p class="login2">
+                로그인
+            </p>
+        </div>
+    </body>  
+</html>
+
