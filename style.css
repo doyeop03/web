@@ -1,20 +1,25 @@
 
-        body { background-color: rgb(255, 255, 255); }
+        body { 
+            background-color: rgb(255, 255, 255);
+            width:100%;
+            height:100%;
+        }
         .container{
             display:flex;
             flex-direction:column; /*가로방향으로 정렬,세로일경우 row*/
             justify-content:center;
             align-items:center; 
-             
+            
         }
         .title{
             font-size: 36px;
-            
+            color:#494949;
+            margin:18px;
         }    
         .login{
             font-size: 30px;
             color:#6F6F6F;
-           
+            margin:30px;
         }
         .item{
             background-color: #F5F5F5;
@@ -23,10 +28,11 @@
             font-size: 16px;
             text-align:left;
             line-height:52px; /*텍스트위치높이 */
-            text-indent:10px;
+            text-indent:10px;/*글자 앞에 여백*/
             color:#BBBBBB;
             margin:6px; /*box 간격*/
             border:none; /*테두리x*/
+           
         }
 
         .login2{
